@@ -1,0 +1,61 @@
+/* !postcard */
+.postcard{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 8px;
+}
+
+/* !postcard leftside */
+.postcard_leftside {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: auto;
+}
+.postcard_leftside .display_block{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+/* !postcard right side  */
+.postcard_rightside{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.postcard_rightside .downside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.postcard_rightside .downside .post_tags{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.postcard_rightside .downside .post_tags span{
+    margin: 2px 4px ;
+    background: rgb(225,236,244);
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.postcard_rightside .downside .post_author_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 6px;
+}
+
+.postcard_rightside .downside .post_author_info span{
+    margin: 2px 4px;
+}

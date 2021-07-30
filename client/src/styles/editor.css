@@ -1,0 +1,16 @@
+.wraper-class{
+    border: 1px solid #0001;
+    width: 100%;
+    height: 100%;
+}
+
+.toolbar-class{
+    box-shadow: var(--outer-shadow);
+    border-radius: 8px;
+}
+
+.editor-class{
+    box-shadow: var(--outer-shadow);
+    border-radius: 8px;
+    min-height: 200px;
+}
